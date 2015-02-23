@@ -1,0 +1,6 @@
+<%= content_tag :div, id: :board, 
+				data: {"update-url" => sort_project_cards_path(@project)} do %>
+
+
+<%= render @cards %>
+<% end %>
